@@ -2,7 +2,7 @@
 
 ![Alt text](assets/1.png)
 
-We have a user prompt and before we feed it to the LLM, we go against a vector DB (retrieval) and we’re going to do a semantic search against our corpus (private documents or more up-to-date info). We’re goingbto retrieve documents via a vectorDB search and combine it into our prompt and feed that to our LLM and then the LLM is going to use both our original prompt and this retrieved info and generate a user response.
+We have a user prompt and before we feed it to the LLM, we go against a vector DB (retrieval) and we’re going to do a semantic search against our corpus (private documents or more up-to-date info). We’re going to retrieve documents via a vectorDB search and combine it into our prompt and feed that to our LLM and then the LLM is going to use both our original prompt and this retrieved info and generate a user response.
 
 # Steps
 
@@ -66,7 +66,7 @@ Now go to chat playground and ask a question. then check it in the csv file
 
 ![Alt text](assets/15.png)
 
-and the recommendations are inside the csv file! It works!!
+And the recommendations are inside the csv file! It works!!
 
 We try with another example:
 
